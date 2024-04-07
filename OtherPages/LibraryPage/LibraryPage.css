@@ -38,7 +38,7 @@
 .AboutPage_firstSec .textAbout span {
     background: #ffb703;
     width: 65px;
-    height: 5px;
+    /* height: 5px; */
 }
 
 /* <!-- Library Page section one Ending --> */
