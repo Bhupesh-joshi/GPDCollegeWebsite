@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+}
+
+/* <!-- Post Status Page section one starting --> */
+
+.AboutPage_firstSec {
+    height: 350px;
+    background-image: url(img/header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.AboutPage_firstSec .textAbout {
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    height: 350px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.AboutPage_firstSec .textAbout h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-top: 30px;
+}
+
+.AboutPage_firstSec .textAbout span {
+    background: #ffb703;
+    width: 65px;
+    height: 5px;
+}
+
+/* <!-- Post Status Page section one Ending --> */
+
+/* <!-- Post Status Page section two starting --> */
+
+.Post_Status_Page_secondSec{
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    }
+
+
+
+
+
+    table.Post_Status_table {
+        /* margin: 13px; */
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    th.Post_Status_th,
+    td.Post_Status_td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: left;
+    }
+    
+    table.Post_Status_table th.Post_Status_th {
+        background: #ffb703;
+        color: #010d14;
+        padding: 10px;
+    }
+
+    
+/* <!-- Post Status Page section two Ending --> */

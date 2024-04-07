@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+}
+
+/* <!-- RTI PageRTI Page section one starting --> */
+
+.AboutPage_firstSec {
+    height: 350px;
+    background-image: url(img/header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.AboutPage_firstSec .textAbout {
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    height: 350px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.AboutPage_firstSec .textAbout h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-top: 30px;
+}
+
+.AboutPage_firstSec .textAbout span {
+    background: #ffb703;
+    width: 65px;
+    height: 5px;
+}
+
+/* <!-- RTI Page section one Ending --> */
+
+/* <!-- RTI Page section two starting --> */
+
+.RTIpage_secondSec{
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    }
+
+    .RTIpage_rti_logo {
+        width: 196px;
+        height: 147px;
+        margin-bottom: 26px;
+    }
+
+    .RTIpage_rti_heading{
+    color: #010d14;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 26px;
+    }
+
+    .RTIpage_rti_text {
+        color: #333333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 26px;
+    }
+
+/* <!-- RTI Page section two Ending --> */

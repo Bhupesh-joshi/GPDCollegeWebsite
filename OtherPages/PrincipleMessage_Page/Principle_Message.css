@@ -50,6 +50,7 @@
     max-width: 1250px;
     width: 100%;
     margin: auto;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
 }
@@ -85,14 +86,16 @@
     outline: none;
     font-size: 16px;
     width: 100%;
+    background: #e8e7e754;
 }
 
 .principlePage_update_search {
-    width: 340px;
+    width: 380px;
+    padding: 40px 15px 40px 40px;
 }
 
 .principlePage_search_div {
-    padding: 40px 0 40px 0;
+    padding: 0px 0 40px 0;
 }
 
 .principlePage_searchBox {
@@ -119,11 +122,17 @@ h2.principlePage_Search {
 }
 
 .principlePage_Updates {
-    margin: 30px 0 25px 0;
+    margin: 20px 0 20px 0;
 }
 
 .principlePage_Updates_head {
     margin-bottom: 10px;
+    color: #010d14;
+    transition: all .5s;
+}
+
+.principlePage_Updates_head a:hover{
+    color: #11198D;
 }
 
 .principlePage_Updates_head a{
@@ -137,8 +146,26 @@ h2.principlePage_Search {
 p.principlePage_cal_icon {
     display: flex;
     align-items: center;
-    padding-right: 20px;
+    font-size: 15px;
+    color: #7a7a7a;
+    /* padding-right: 20px; */
 }
 
+span.PrinciplePage_MS {
+    color: #ffb703;
+    font-size: 20px;
+    margin-right: 10px;
+    background: #fff;
+}
+
+.principlePage_newsletterIMG {
+    width: 90px;
+    height: 90px;
+}
+
+.P-P-U-D {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* <!-- Principle Message Page section Two Ending --> */

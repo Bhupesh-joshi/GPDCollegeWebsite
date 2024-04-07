@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+}
+
+/* <!-- AboutPage section one starting --> */
+
+.AboutPage_firstSec {
+    height: 350px;
+    background-image: url(img/header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.AboutPage_firstSec .textAbout {
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    height: 350px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.AboutPage_firstSec .textAbout h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-top: 30px;
+}
+
+.AboutPage_firstSec .textAbout span {
+    background: #ffb703;
+    width: 65px;
+    height: 5px;
+}
+
+/* <!-- AboutPage section one Ending --> */
+
+
+/* <!-- Courses Page section Two starting --> */
+
+.Courses_secondSec {
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    padding: 15px 50px 15px 50px;
+    /* padding: 15px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Courses_Departments {
+    max-width: 370px;
+    width: 100%;
+    color: #F0F0F0;
+    background-color: #120775;
+    padding: 20px 20px 20px 40px;
+}
+
+.Courses_Depart_heading {
+    font-size: 1.75rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Courses_secondSec .Courses_Departments ul li {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 400;
+    list-style-type: disclosure-closed;
+    line-height: 2.3;
+    /* padding-left: 5px; */
+}
+
+
+
+
+table.CoursesPage_table {
+    margin: 13px;
+    max-width: 800px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th.CoursesPage_th,
+td.CoursesPage_td {
+    border: 1px solid #ccc;
+    padding: 0px 10px 0px 10px;
+    text-align: left;
+}
+
+table.CoursesPage_table th.CoursesPage_th {
+    background: #ffb703;
+    color: #010d14;
+    padding: 10px;
+}
+
+/* <!-- Courses Page section Two Ending --> */

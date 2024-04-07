@@ -1,5 +1,3 @@
-/* <!-- AboutPage section one starting --> */
-
 * {
     box-sizing: border-box;
     margin: 0%;
@@ -7,12 +5,15 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* <!-- Community Development Page section one starting --> */
+
 .AboutPage_firstSec {
     height: 350px;
     background-image: url(img/header.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
 }
 
 .AboutPage_firstSec .textAbout {
@@ -40,63 +41,47 @@
     height: 5px;
 }
 
-/* <!-- AboutPage section one Ending --> */
+/* <!-- Community Development Page section one Ending --> */
 
-.AboutPage_SecondSec {
+
+/* <!-- Community Development Page section Two starting --> */
+
+.Community_Dev_secondSec {
     max-width: 1250px;
     width: 100%;
     margin: auto;
     padding: 15px;
 }
 
-.AboutPage_SecondSec p .AboutPage_Banner {
-    width: 1250px;
-    margin-top: 100px;
-    margin-bottom: 30px;
-}
-
-.AboutPage_SecondSec p.AboutPage_summary {
-    text-align: justify;
-    color: #333333;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.5;
-    margin-bottom: 30px;
-}
-
-/* <!-- AboutPage section three starting --> */
-
-.AboutPage_ThirdSec {
-    max-width: 1250px;
-    width: 100%;
-    margin: auto
-}
-
-.AboutPage_details ol{
-    padding-left: 15px;
-}
-
-.AboutPage_details .AboutPage_Headings{
+.Community_Dev_main_heading {
+    color: #010d14;
+    font-size: 28px;
     margin-bottom: 26px;
+    width: 44rem;
+    line-height: 1.4;
 }
 
-.AboutPage_Courses {
+.Community_Dev_main_text {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    /* margin-bottom: 26px; */
+    width: 51rem;
+}
+
+.Community_Dev_sec_heading {
     color: #333333;
     font-size: 15px;
-    font-weight: 400;
-    line-height: 1.5;
-    margin-bottom: 30px;
+    font-weight: bold;
+    margin-bottom: 26px;
+    margin-top: 26px;
 }
 
-.AboutPage_Courses a{
-    color: #333333;
-    text-decoration: none;
-    transition: all .5s;
+ul {
+    padding-left: 35px;
 }
 
-.AboutPage_Courses a:hover {
-    color: #fcb900;
-    transition: all .5s;
-}
 
-/* <!-- AboutPage section three Ending --> */
+
+/* <!-- Community Development Page section Two Ending --> */
