@@ -52,4 +52,28 @@
     margin: auto;
     padding: 15px;
 }
+
+
+
+
+table.Office_Staff_table {
+    /* margin: 13px; */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th.Office_Staff_th,
+td.Office_Staff_td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table.Office_Staff_table th.Office_Staff_th {
+    background: #ffb703;
+    color: #010d14;
+    padding: 10px;
+}
+
+
 /* <!-- Office Staff Page section Two Ending --> */

@@ -52,4 +52,28 @@
     margin: auto;
     padding: 15px;
 }
+
+
+
+
+table.Faculties_table {
+    /* margin: 13px; */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th.Faculties_th,
+td.Faculties_td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table.Faculties_table th.Faculties_th {
+    background: #ffb703;
+    color: #010d14;
+    padding: 10px;
+}
+
+
 /* <!-- Faculties Page section Two Ending --> */
