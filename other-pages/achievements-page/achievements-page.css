@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+}
+
+/* <!-- Sports section one starting --> */
+
+.AboutPage_firstSec {
+    height: 350px;
+    background-image: url(./img/header.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.AboutPage_firstSec .textAbout {
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    height: 350px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.AboutPage_firstSec .textAbout h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-top: 30px;
+}
+
+.AboutPage_firstSec .textAbout span {
+    background: #ffb703;
+    width: 65px;
+    height: 5px;
+}
+
+/* <!-- Sports section one Ending --> */
+
+
+/* <!-- Sports Page section Two starting --> */
+
+.Achievements_Page_secondSec {
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+}
+
+.NSS_NCC_text {
+    color: #333333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 26px;
+}
+
+.Achievements_Page_main_heading {
+    color: #010d14;
+    font-size: 28px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+
+
+
+
+table.Achievements_Page_table {
+    /* margin: 13px; */
+    width: 62%;
+    border-collapse: collapse;
+}
+
+th.Achievements_Page_th,
+td.Achievements_Page_td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+    /* text-align: left; */
+}
+
+table.Achievements_Page_table th.Achievements_Page_th {
+    background: #ffb703;
+    color: #010d14;
+    padding: 10px;
+}
+
+
+
+/* <!-- Sports Page section Two Ending --> */
