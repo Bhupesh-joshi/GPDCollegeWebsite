@@ -420,7 +420,7 @@ span.prev:hover {
 
 .secSix {
     margin-top: 20px;
-    background-image: url(/imgs/bg_sec_6.jpg);
+    background-image: url(../imgs/bg_sec_6.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
