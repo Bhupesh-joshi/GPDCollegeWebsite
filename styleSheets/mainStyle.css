@@ -51,6 +51,7 @@ span.toolBar_color.TB_line {
     position: sticky;
     top: 0;
     z-index: 9999;
+    margin-bottom: 20px;
 }
 
 nav.navBar {
@@ -123,30 +124,18 @@ a.LiBox:hover {
 } */
 
 .mainMenuItems {
-    /* float: left;
-    padding-left: 20px; */
     position: relative;
 }
 
+
 .all_dropdown {
-    /* background-color: #FFF;
-    position: absolute; */
-    /* left: 0%; */
-    /* top: 68px; */
-    /* width: 270px; */
-    /* top: 100%; */
-    /* display: none; */
-    /* transition: all 4s ; */
-
-
-
     padding-top: 40px;
+    padding-left: 2rem !important;
     background-color: #fff;
     position: absolute;
     width: 289px;
     height: 400px;
     display: none;
-    transition: all .4s;
 }
 
 .mainMenuItems .all_dropdown .subDropdown a {
@@ -155,11 +144,11 @@ a.LiBox:hover {
 
 .mainMenuItems .all_dropdown .subDropdown a:hover {
     color: #0E0975;
+    transition: all .5s;
 }
 
 .collageLi:hover .all_dropdown {
     display: block;
-    transition: all 4s;
 }
 
 .staffLi:hover .all_dropdown {
@@ -174,7 +163,12 @@ a.LiBox:hover {
     padding: 10px;
 }
 
-/* <!-- Section second starts navbar end --> */
+ol, ul {
+    padding-left: 0rem !important;
+}
+
+
+/* <!-- Section second navbar end --> */
 
 /* <!-- section Three starts --> */
 
@@ -185,7 +179,7 @@ a.LiBox:hover {
     max-width: 1350px;
     width: 100%;
     background-color: #F0F0F0;
-    z-index: -1;
+    z-index: 1;
     margin: auto;
 }
 
@@ -481,8 +475,29 @@ span.prev:hover {
     }
 
 
+    div#carouselExampleControls {
+        margin-top: 30px;
+    }
 
+    .NE_LE_all_com {
+        text-align: center;
+    }
 
+    .NE_LE_sec {
+        display: flex;
+        justify-content: center;
+    }
+
+    .NE_LE_all_com .NE_LE_sec h1 {
+        margin: 0 0 10px 10px;
+        color: #010D14;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .NE_LE_all_com .NE_LE_sec img {
+        height: 16px;
+    }
 
     
 .card-container {
@@ -539,21 +554,6 @@ p.NE_Spot_B-One_text {
     margin-top: 0;
 }
 
-/* .read-more {
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    text-decoration: none;
-} */
-
-/* .read-more:hover {
-    background-color: #45a049;
-} */
-
 .CCIMG_scale:hover {
     cursor: pointer;
     transform: scale(1.1);
@@ -564,6 +564,15 @@ p.NE_Spot_B-One_text {
     padding-left: 15px;
     transition: all 0.5s;
 }
+
+button.carousel-control-prev {
+    left: -45px;
+}
+
+button.carousel-control-next {
+    right: -45px;
+}
+
 
 
 
@@ -576,6 +585,7 @@ p.NE_Spot_B-One_text {
 /* <!-- Footer starts --> */
 
 .secFooter {
+    margin-top: 80px;
     background: #000d13;
 }
 
