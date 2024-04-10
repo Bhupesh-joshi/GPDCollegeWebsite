@@ -1,0 +1,110 @@
+@media(min-width:320px) and (max-width:425px){
+    .toolBar_All {
+        justify-content: center;
+        padding: 0%;
+    }
+
+    .toolBar_color {
+        font-size: 13px;
+    }
+
+
+}
+
+@media(min-width:426px) and (max-width:768px){
+    .toolBar_All {
+        justify-content: center;
+        padding: 0%;
+    }
+}
+
+@media(min-width:426px) and (max-width:600px){ 
+
+}
+
+@media(min-width:768px) and (max-width:1024px){
+
+}
+
+@media(min-width:1025px) and (max-width:1150px){
+
+}
+
+@media only screen and (max-width: 1230px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        padding: 20px 20px 0 20px;
+        float: right;
+    }
+
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background: #000;
+        margin: 6px 0;
+    }
+
+    .nav-bar {
+        /* height: 0; */
+        /* position: static; */
+        /* top: 80px; */
+        /* left: 0;
+        right: 0; */
+        /* width: 100vw; */
+        /* background: #fff; */
+        transition: 0.2s;
+        /* overflow: hidden; */
+    }
+
+    .mainNav_UL {
+        height: 0;
+    }
+
+    .nav-bar.active {
+        height: 450px;
+    }
+
+    .secTwo {
+        position: static;
+    }
+
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 0px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .mainMenuItems {
+        margin-bottom: 10px;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+
+    .nav-bar ul li a {
+        margin-bottom: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .carousel_WtNew_Section{
+        flex-flow: column;
+        align-items: center;
+        width: 77%;
+    }
+
+    .WtNew {
+        width: 75%;
+    }
+
+    .noticeBoardSec .NB {
+        width: 83%;
+        font-size: 16px;
+    }
+}
